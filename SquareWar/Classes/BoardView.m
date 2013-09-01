@@ -276,7 +276,7 @@ CGFloat distanceBetweenPoints (CGPoint first, CGPoint second) {
 		title = @"You loose!";
 	}
 	
-	NSString *unformattedMessage = @"You:\t\t%d\nMachine:\t\t%d";
+	NSString *unformattedMessage = @"You:\t\t%d\nOpponent:\t\t%d";
 	NSString *message = [NSString stringWithFormat:unformattedMessage, userCount, machineCount];
 	
 	UIAlertView *alert = [[[UIAlertView alloc]
