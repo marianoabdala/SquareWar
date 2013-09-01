@@ -12,11 +12,9 @@
 
 @interface SquareWarAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    SquareWarViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet SquareWarViewController *viewController;
 
 @end
 

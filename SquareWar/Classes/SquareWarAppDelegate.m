@@ -9,16 +9,36 @@
 #import "SquareWarAppDelegate.h"
 #import "SquareWarViewController.h"
 
+@interface SquareWarAppDelegate ()
+
+@property (retain, nonatomic) SquareWarViewController *viewController;
+
+@end
+
 @implementation SquareWarAppDelegate
 
 @synthesize window;
 @synthesize viewController;
 
-
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     
-    // Override point for customization after app launch    
-    [window addSubview:viewController.view];
+    BOOL is4InchDisplay =
+    [[UIScreen mainScreen] bounds].size.height == 568.0f;
+
+    if (is4InchDisplay == NO) {
+        
+        self.viewController =
+        [[SquareWarViewController alloc] initWithNibName:@"SquareWarViewController"
+                                                  bundle:nil];
+        
+    } else {
+        
+        self.viewController =
+        [[SquareWarViewController alloc] initWithNibName:@"SquareWarViewController40"
+                                                  bundle:nil];
+    }
+    
+    [window addSubview:self.viewController.view];
     [window makeKeyAndVisible];
 }
 
