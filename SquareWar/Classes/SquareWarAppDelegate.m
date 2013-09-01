@@ -38,7 +38,8 @@
                                                   bundle:nil];
     }
     
-    [window addSubview:self.viewController.view];
+    window.rootViewController = self.viewController;
+
     [window makeKeyAndVisible];
 }
 
