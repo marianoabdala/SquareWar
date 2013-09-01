@@ -243,6 +243,7 @@ CGFloat distanceBetweenPoints (CGPoint first, CGPoint second) {
 }
 
 - (void)giveTurn:(Turn)nextTurn {
+    
 	if([SquareView checkAllCompletedInArray:self.squares] == YES) {
 		[self gameOver];
 		return;
@@ -276,7 +277,7 @@ CGFloat distanceBetweenPoints (CGPoint first, CGPoint second) {
 		title = @"You loose!";
 	}
 	
-	NSString *unformattedMessage = @"You:\t\t%d\nOpponent:\t\t%d";
+	NSString *unformattedMessage = @"You: %d\nOpponent: %d";
 	NSString *message = [NSString stringWithFormat:unformattedMessage, userCount, machineCount];
 	
 	UIAlertView *alert = [[[UIAlertView alloc]
