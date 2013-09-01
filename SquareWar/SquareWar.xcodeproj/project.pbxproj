@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SquareWarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SquareWarAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SquareWarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SquareWarViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SquareWarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SquareWarViewController.m */; };
+		312B9F1810571C710038AB81 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0810571C710038AB81 /* blue.png */; };
+		312B9F1910571C710038AB81 /* blueSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0910571C710038AB81 /* blueSelected.png */; };
+		312B9F1A10571C710038AB81 /* cyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0A10571C710038AB81 /* cyan.png */; };
+		312B9F1B10571C710038AB81 /* cyanSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0B10571C710038AB81 /* cyanSelected.png */; };
+		312B9F1C10571C710038AB81 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0C10571C710038AB81 /* green.png */; };
+		312B9F1D10571C710038AB81 /* greenSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0D10571C710038AB81 /* greenSelected.png */; };
+		312B9F1E10571C710038AB81 /* magenta.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0E10571C710038AB81 /* magenta.png */; };
+		312B9F1F10571C710038AB81 /* magentaSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0F10571C710038AB81 /* magentaSelected.png */; };
+		312B9F2010571C710038AB81 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F1010571C710038AB81 /* orange.png */; };
+		312B9F2110571C710038AB81 /* orangeSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F1110571C710038AB81 /* orangeSelected.png */; };
+		312B9F2210571C710038AB81 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F1210571C710038AB81 /* purple.png */; };
+		312B9F2310571C710038AB81 /* purpleSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F1310571C710038AB81 /* purpleSelected.png */; };
+		312B9F2410571C710038AB81 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F1410571C710038AB81 /* red.png */; };
+		312B9F2510571C710038AB81 /* redSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F1510571C710038AB81 /* redSelected.png */; };
+		312B9F2610571C710038AB81 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F1610571C710038AB81 /* yellow.png */; };
+		312B9F2710571C710038AB81 /* yellowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F1710571C710038AB81 /* yellowSelected.png */; };
+		313121091041934E00EAF2C2 /* NSMutableArray-Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 313121081041934E00EAF2C2 /* NSMutableArray-Shuffling.m */; };
+		313121A810419B0600EAF2C2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 313121A710419B0600EAF2C2 /* icon.png */; };
+		3187193A1040251A00692ABD /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 318719391040251A00692ABD /* BoardView.m */; };
+		318719411040276E00692ABD /* VertexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 318719401040276E00692ABD /* VertexView.m */; };
+		3187196C104061D600692ABD /* SideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187196B104061D600692ABD /* SideView.m */; };
+		3187197C1040646200692ABD /* SquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187197B1040646200692ABD /* SquareView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SquareWarAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareWarAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SquareWarAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareWarAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SquareWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SquareWarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquareWarViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SquareWarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareWarViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SquareWarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareWarViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		312B9F0810571C710038AB81 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		312B9F0910571C710038AB81 /* blueSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueSelected.png; sourceTree = "<group>"; };
+		312B9F0A10571C710038AB81 /* cyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cyan.png; sourceTree = "<group>"; };
+		312B9F0B10571C710038AB81 /* cyanSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cyanSelected.png; sourceTree = "<group>"; };
+		312B9F0C10571C710038AB81 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		312B9F0D10571C710038AB81 /* greenSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenSelected.png; sourceTree = "<group>"; };
+		312B9F0E10571C710038AB81 /* magenta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magenta.png; sourceTree = "<group>"; };
+		312B9F0F10571C710038AB81 /* magentaSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magentaSelected.png; sourceTree = "<group>"; };
+		312B9F1010571C710038AB81 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		312B9F1110571C710038AB81 /* orangeSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeSelected.png; sourceTree = "<group>"; };
+		312B9F1210571C710038AB81 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
+		312B9F1310571C710038AB81 /* purpleSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleSelected.png; sourceTree = "<group>"; };
+		312B9F1410571C710038AB81 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		312B9F1510571C710038AB81 /* redSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redSelected.png; sourceTree = "<group>"; };
+		312B9F1610571C710038AB81 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		312B9F1710571C710038AB81 /* yellowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowSelected.png; sourceTree = "<group>"; };
+		313121071041934E00EAF2C2 /* NSMutableArray-Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray-Shuffling.h"; sourceTree = "<group>"; };
+		313121081041934E00EAF2C2 /* NSMutableArray-Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray-Shuffling.m"; sourceTree = "<group>"; };
+		313121A710419B0600EAF2C2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		318719381040251A00692ABD /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		318719391040251A00692ABD /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		3187193F1040276E00692ABD /* VertexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexView.h; sourceTree = "<group>"; };
+		318719401040276E00692ABD /* VertexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexView.m; sourceTree = "<group>"; };
+		3187196A104061D600692ABD /* SideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideView.h; sourceTree = "<group>"; };
+		3187196B104061D600692ABD /* SideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideView.m; sourceTree = "<group>"; };
+		3187197A1040646200692ABD /* SquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareView.h; sourceTree = "<group>"; };
+		3187197B1040646200692ABD /* SquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareView.m; sourceTree = "<group>"; };
+		31A8744D105877AD007DCC1B /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SquareWar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareWar_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SquareWar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SquareWar-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3198518A1040C57C00CCC4A1 /* Categories */,
+				319851891040C56200CCC4A1 /* Model */,
+				1D3623240D0F684500981E51 /* SquareWarAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SquareWarAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* SquareWarViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* SquareWarViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SquareWar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SquareWar_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				312B9F0310571C500038AB81 /* colorSelectorButtons */,
+				313121A710419B0600EAF2C2 /* icon.png */,
+				2899E5210DE3E06400AC0155 /* SquareWarViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SquareWar-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		312B9F0310571C500038AB81 /* colorSelectorButtons */ = {
+			isa = PBXGroup;
+			children = (
+				312B9F0810571C710038AB81 /* blue.png */,
+				312B9F0910571C710038AB81 /* blueSelected.png */,
+				312B9F0A10571C710038AB81 /* cyan.png */,
+				312B9F0B10571C710038AB81 /* cyanSelected.png */,
+				312B9F0C10571C710038AB81 /* green.png */,
+				312B9F0D10571C710038AB81 /* greenSelected.png */,
+				312B9F0E10571C710038AB81 /* magenta.png */,
+				312B9F0F10571C710038AB81 /* magentaSelected.png */,
+				312B9F1010571C710038AB81 /* orange.png */,
+				312B9F1110571C710038AB81 /* orangeSelected.png */,
+				312B9F1210571C710038AB81 /* purple.png */,
+				312B9F1310571C710038AB81 /* purpleSelected.png */,
+				312B9F1410571C710038AB81 /* red.png */,
+				312B9F1510571C710038AB81 /* redSelected.png */,
+				312B9F1610571C710038AB81 /* yellow.png */,
+				312B9F1710571C710038AB81 /* yellowSelected.png */,
+			);
+			name = colorSelectorButtons;
+			sourceTree = "<group>";
+		};
+		319851891040C56200CCC4A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				318719381040251A00692ABD /* BoardView.h */,
+				318719391040251A00692ABD /* BoardView.m */,
+				3187196A104061D600692ABD /* SideView.h */,
+				3187196B104061D600692ABD /* SideView.m */,
+				3187197A1040646200692ABD /* SquareView.h */,
+				3187197B1040646200692ABD /* SquareView.m */,
+				3187193F1040276E00692ABD /* VertexView.h */,
+				318719401040276E00692ABD /* VertexView.m */,
+				31A8744D105877AD007DCC1B /* Enums.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3198518A1040C57C00CCC4A1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				313121071041934E00EAF2C2 /* NSMutableArray-Shuffling.h */,
+				313121081041934E00EAF2C2 /* NSMutableArray-Shuffling.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SquareWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SquareWar" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquareWar;
+			productName = SquareWar;
+			productReference = 1D6058910D05DD3D006BFB54 /* SquareWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SquareWar" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SquareWar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SquareWarViewController.xib in Resources */,
+				313121A810419B0600EAF2C2 /* icon.png in Resources */,
+				312B9F1810571C710038AB81 /* blue.png in Resources */,
+				312B9F1910571C710038AB81 /* blueSelected.png in Resources */,
+				312B9F1A10571C710038AB81 /* cyan.png in Resources */,
+				312B9F1B10571C710038AB81 /* cyanSelected.png in Resources */,
+				312B9F1C10571C710038AB81 /* green.png in Resources */,
+				312B9F1D10571C710038AB81 /* greenSelected.png in Resources */,
+				312B9F1E10571C710038AB81 /* magenta.png in Resources */,
+				312B9F1F10571C710038AB81 /* magentaSelected.png in Resources */,
+				312B9F2010571C710038AB81 /* orange.png in Resources */,
+				312B9F2110571C710038AB81 /* orangeSelected.png in Resources */,
+				312B9F2210571C710038AB81 /* purple.png in Resources */,
+				312B9F2310571C710038AB81 /* purpleSelected.png in Resources */,
+				312B9F2410571C710038AB81 /* red.png in Resources */,
+				312B9F2510571C710038AB81 /* redSelected.png in Resources */,
+				312B9F2610571C710038AB81 /* yellow.png in Resources */,
+				312B9F2710571C710038AB81 /* yellowSelected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SquareWarAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SquareWarViewController.m in Sources */,
+				3187193A1040251A00692ABD /* BoardView.m in Sources */,
+				318719411040276E00692ABD /* VertexView.m in Sources */,
+				3187196C104061D600692ABD /* SideView.m in Sources */,
+				3187197C1040646200692ABD /* SquareView.m in Sources */,
+				313121091041934E00EAF2C2 /* NSMutableArray-Shuffling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SquareWar_Prefix.pch;
+				INFOPLIST_FILE = "SquareWar-Info.plist";
+				PRODUCT_NAME = SquareWar;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SquareWar_Prefix.pch;
+				INFOPLIST_FILE = "SquareWar-Info.plist";
+				PRODUCT_NAME = SquareWar;
+			};
+			name = Release;
+		};
+		319851551040B91900CCC4A1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mariano Abdala";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "94CFEB63-807E-48FC-97BC-5D63D826FF3C";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribution;
+		};
+		319851561040B91900CCC4A1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SquareWar_Prefix.pch;
+				INFOPLIST_FILE = "SquareWar-Info.plist";
+				PRODUCT_NAME = SquareWar;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SquareWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				319851561040B91900CCC4A1 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SquareWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				319851551040B91900CCC4A1 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
