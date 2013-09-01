@@ -339,13 +339,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mariano Abdala";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mariano Abdala (U6N2KPMN36)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mariano Abdala (U6N2KPMN36)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "94CFEB63-807E-48FC-97BC-5D63D826FF3C";
+				PROVISIONING_PROFILE = "314C1FA9-4C91-4855-A19A-BB85EF21E42A";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -367,13 +368,15 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mariano Abdala (U6N2KPMN36)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mariano Abdala (2XA9UNFL6G)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "314C1FA9-4C91-4855-A19A-BB85EF21E42A";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -381,12 +384,14 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mariano Abdala (U6N2KPMN36)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mariano Abdala (U6N2KPMN36)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "314C1FA9-4C91-4855-A19A-BB85EF21E42A";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
