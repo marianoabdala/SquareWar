@@ -8,8 +8,6 @@
 	<string>Square war</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFile</key>
-	<string>icon.png</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.zerously.SquareWar</string>
 	<key>CFBundleInfoDictionaryVersion</key>

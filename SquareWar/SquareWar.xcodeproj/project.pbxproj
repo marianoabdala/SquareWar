@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* SquareWarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SquareWarViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* SquareWarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SquareWarViewController.m */; };
+		311C333E17D37D9900C3148D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311C333D17D37D9900C3148D /* Images.xcassets */; };
 		312B9F1810571C710038AB81 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0810571C710038AB81 /* blue.png */; };
 		312B9F1910571C710038AB81 /* blueSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0910571C710038AB81 /* blueSelected.png */; };
 		312B9F1A10571C710038AB81 /* cyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F0A10571C710038AB81 /* cyan.png */; };
@@ -51,6 +52,7 @@
 		28D7ACF60DDB3853001CB0EB /* SquareWarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareWarViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* SquareWarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareWarViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		311C333D17D37D9900C3148D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SquareWar/Images.xcassets; sourceTree = "<group>"; };
 		312B9F0810571C710038AB81 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
 		312B9F0910571C710038AB81 /* blueSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueSelected.png; sourceTree = "<group>"; };
 		312B9F0A10571C710038AB81 /* cyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cyan.png; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				311C333D17D37D9900C3148D /* Images.xcassets */,
 				312B9F0310571C500038AB81 /* colorSelectorButtons */,
 				313121A710419B0600EAF2C2 /* icon.png */,
 				2899E5210DE3E06400AC0155 /* SquareWarViewController.xib */,
@@ -234,9 +237,15 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SquareWar" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				311C333E17D37D9900C3148D /* Images.xcassets in Resources */,
 				2899E5220DE3E06400AC0155 /* SquareWarViewController.xib in Resources */,
 				313121A810419B0600EAF2C2 /* icon.png in Resources */,
 				312B9F1810571C710038AB81 /* blue.png in Resources */,
@@ -298,6 +308,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -312,6 +324,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SquareWar_Prefix.pch;
@@ -339,6 +353,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SquareWar_Prefix.pch;
