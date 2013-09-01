@@ -33,7 +33,6 @@
 		312B9F2610571C710038AB81 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F1610571C710038AB81 /* yellow.png */; };
 		312B9F2710571C710038AB81 /* yellowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 312B9F1710571C710038AB81 /* yellowSelected.png */; };
 		313121091041934E00EAF2C2 /* NSMutableArray-Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 313121081041934E00EAF2C2 /* NSMutableArray-Shuffling.m */; };
-		313121A810419B0600EAF2C2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 313121A710419B0600EAF2C2 /* icon.png */; };
 		315D02BE17D385B100411E1B /* SquareWarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 315D02BD17D385B100411E1B /* SquareWarViewController.xib */; };
 		3187193A1040251A00692ABD /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 318719391040251A00692ABD /* BoardView.m */; };
 		318719411040276E00692ABD /* VertexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 318719401040276E00692ABD /* VertexView.m */; };
@@ -72,7 +71,6 @@
 		312B9F1710571C710038AB81 /* yellowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowSelected.png; sourceTree = "<group>"; };
 		313121071041934E00EAF2C2 /* NSMutableArray-Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray-Shuffling.h"; sourceTree = "<group>"; };
 		313121081041934E00EAF2C2 /* NSMutableArray-Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray-Shuffling.m"; sourceTree = "<group>"; };
-		313121A710419B0600EAF2C2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		315D02BD17D385B100411E1B /* SquareWarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareWarViewController.xib; sourceTree = "<group>"; };
 		318719381040251A00692ABD /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
 		318719391040251A00692ABD /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 			children = (
 				311C333D17D37D9900C3148D /* Images.xcassets */,
 				312B9F0310571C500038AB81 /* colorSelectorButtons */,
-				313121A710419B0600EAF2C2 /* icon.png */,
 				2899E5210DE3E06400AC0155 /* SquareWarViewController40.xib */,
 				315D02BD17D385B100411E1B /* SquareWarViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -267,7 +264,6 @@
 				315D02BE17D385B100411E1B /* SquareWarViewController.xib in Resources */,
 				311C333E17D37D9900C3148D /* Images.xcassets in Resources */,
 				2899E5220DE3E06400AC0155 /* SquareWarViewController40.xib in Resources */,
-				313121A810419B0600EAF2C2 /* icon.png in Resources */,
 				312B9F1810571C710038AB81 /* blue.png in Resources */,
 				312B9F1910571C710038AB81 /* blueSelected.png in Resources */,
 				312B9F1A10571C710038AB81 /* cyan.png in Resources */,
