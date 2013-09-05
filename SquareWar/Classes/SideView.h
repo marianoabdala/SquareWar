@@ -30,6 +30,7 @@
 - (void)addSquare:(SquareView *)square;
 - (KeepPlaying)markWithTurn:(Turn)turn andLatest:(SideView *)latest;
 - (void)reinit;
+- (void)remark;
 + (SideView *)getSideFromArray:(NSArray *)sides
 				   withVertex1:(VertexView *)vertex1
 					andVertex2:(VertexView *)vertex2;

@@ -92,6 +92,15 @@
 	self.backgroundColor = [UIColor clearColor];
 }
 
+- (void)remark {
+
+    if (self.marked == YES) {
+        
+        self.alpha = 1;
+        self.backgroundColor = [UIColor blackColor];
+    }
+}
+
 - (void)initFrame {
 	CGFloat x1 = self.vertex1.frame.origin.x;
 	CGFloat x2 = self.vertex2.frame.origin.x;

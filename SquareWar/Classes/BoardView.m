@@ -413,6 +413,11 @@ CGFloat distanceBetweenPoints (CGPoint first, CGPoint second) {
 	
 	UITouch *touch = [touches anyObject];
 	CGPoint currentPosition = [touch locationInView:self];
+    
+    for (SideView *sideView in self.sides) {
+        
+        [sideView remark];
+    }
 
 	//Find closest 2 vertices to the touch, get the side and mark it.
 	VertexView *closestVertex = nil;
